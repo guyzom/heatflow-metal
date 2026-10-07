@@ -1,0 +1,45 @@
+[0/1] Planning build
+Building for production...
+[0/5] Write swift-version--1AB21518FC5DEDBE.txt
+[2/6] Compiling HeatFlow CPU.swift
+[3/8] Compiling HeatFlowTests Assertions.swift
+[4/9] Compiling HeatFlowCLI main.swift
+[4/9] Write Objects.LinkFileList
+[5/9] Linking heatflow
+[7/9] Compiling HeatFlowMetalPackageTests runner.swift
+[7/9] Write Objects.LinkFileList
+[8/9] Linking HeatFlowMetalPackageTests
+Build complete! (4.29s)
+warning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.
+◇ Test run started.
+↳ Testing Library Version: 2084
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite HeatFlowTests started.
+◇ Test testRejectsUnstableAndInvalidConfigurations() started.
+✔ Test testRejectsUnstableAndInvalidConfigurations() passed after 0.001 seconds.
+◇ Test testFieldAndStepValidation() started.
+✔ Test testFieldAndStepValidation() passed after 0.001 seconds.
+◇ Test testHandCalculatedAnisotropicStep() started.
+✔ Test testHandCalculatedAnisotropicStep() passed after 0.001 seconds.
+◇ Test testZeroStepsReturnsExactInput() started.
+✔ Test testZeroStepsReturnsExactInput() passed after 0.001 seconds.
+◇ Test testConstantFieldIsStationary() started.
+✔ Test testConstantFieldIsStationary() passed after 0.001 seconds.
+◇ Test testFixedNonzeroBoundaryAndMaximumPrinciple() started.
+✔ Test testFixedNonzeroBoundaryAndMaximumPrinciple() passed after 0.001 seconds.
+◇ Test testDiscreteSineEigenmode() started.
+✔ Test testDiscreteSineEigenmode() passed after 0.001 seconds.
+◇ Test testSecondOrderConvergenceAgainstContinuousSolution() started.
+✔ Test testSecondOrderConvergenceAgainstContinuousSolution() passed after 0.001 seconds.
+◇ Test testCoolingSymmetryAndLongTimeDecay() started.
+✔ Test testCoolingSymmetryAndLongTimeDecay() passed after 0.001 seconds.
+◇ Test testSplittingTimestepsMatchesSingleRun() started.
+✔ Test testSplittingTimestepsMatchesSingleRun() passed after 0.001 seconds.
+◇ Test testMetalParityOddRectangularGridsAndBatchTransitions() started.
+✔ Test testMetalParityOddRectangularGridsAndBatchTransitions() passed after 0.052 seconds.
+◇ Test testMetalMinimumGridAndFixedEdges() started.
+✔ Test testMetalMinimumGridAndFixedEdges() passed after 0.004 seconds.
+◇ Test testMetalDeterminismAndInvalidInputs() started.
+✔ Test testMetalDeterminismAndInvalidInputs() passed after 0.006 seconds.
+✔ Suite HeatFlowTests passed after 0.066 seconds.
+✔ Test run with 13 tests in 1 suite passed after 0.067 seconds.

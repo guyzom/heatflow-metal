@@ -1,0 +1,11 @@
+[0/1] Planning build
+Building for production...
+[0/2] Write swift-version--1AB21518FC5DEDBE.txt
+Build complete! (0.19s)
+warning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.
+swift-driver version: 1.168.6 Metal device: Apple M1 Pro; setup 0.036 s (excluded)
+grid      CPU median ms    Metal median ms    CPU/Metal     max error
+  64²            0.942              2.218          0.425       2.98e-08
+ 256²           16.563              2.938          5.637       1.79e-07
+1024²          263.089             15.308         17.186       1.79e-07
+Saved raw samples: benchmarks/m1-pro.json

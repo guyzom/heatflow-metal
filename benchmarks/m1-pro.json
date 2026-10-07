@@ -1,0 +1,117 @@
+{
+  "batch_size" : 64,
+  "build_mode" : "release",
+  "cases" : [
+    {
+      "cpu_median_seconds" : 0.00094229100000000005,
+      "cpu_over_metal_wall_ratio" : 0.42475847631823793,
+      "cpu_wall_seconds" : [
+        0.00094229100000000005,
+        0.000945042,
+        0.00094470800000000005,
+        0.00091962499999999998,
+        0.00091337500000000002
+      ],
+      "height" : 64,
+      "max_absolute_error" : 2.9802322387695312e-08,
+      "metal_command_gpu_seconds" : [
+        0.001122791669331491,
+        0.0011205416521988809,
+        0.0011230833479203284,
+        0.0011106666061095893,
+        0.0011173750972375274
+      ],
+      "metal_interior_updates_per_second" : 346553576.96662843,
+      "metal_median_seconds" : 0.002218416,
+      "metal_wall_seconds" : [
+        0.0022212500000000001,
+        0.002218416,
+        0.0023054590000000002,
+        0.0020509999999999999,
+        0.0020444999999999999
+      ],
+      "repeats" : 5,
+      "steps" : 200,
+      "width" : 64
+    },
+    {
+      "cpu_median_seconds" : 0.016563207999999999,
+      "cpu_over_metal_wall_ratio" : 5.6370996341359652,
+      "cpu_wall_seconds" : [
+        0.015895416999999998,
+        0.017204041,
+        0.015724124999999999,
+        0.016563207999999999,
+        0.017115874999999999
+      ],
+      "height" : 256,
+      "max_absolute_error" : 1.7881393432617188e-07,
+      "metal_command_gpu_seconds" : [
+        0.0018961666501127183,
+        0.0013964999816380441,
+        0.0013223749701865017,
+        0.0014568750630132854,
+        0.0016449583345092833
+      ],
+      "metal_interior_updates_per_second" : 4391457500.2127123,
+      "metal_median_seconds" : 0.0029382499999999999,
+      "metal_wall_seconds" : [
+        0.0035453749999999999,
+        0.002898542,
+        0.0029382499999999999,
+        0.0026614170000000001,
+        0.0034840829999999998
+      ],
+      "repeats" : 5,
+      "steps" : 200,
+      "width" : 256
+    },
+    {
+      "cpu_median_seconds" : 0.26308925,
+      "cpu_over_metal_wall_ratio" : 17.18615594980157,
+      "cpu_wall_seconds" : [
+        0.25746187500000001,
+        0.26512075000000002,
+        0.25326970900000001,
+        0.26308925,
+        0.26480537500000001
+      ],
+      "height" : 1024,
+      "max_absolute_error" : 1.7881393432617188e-07,
+      "metal_command_gpu_seconds" : [
+        0.012147250061389059,
+        0.0067130000679753721,
+        0.014015833381563425,
+        0.0098399166017770767,
+        0.012571208295412362
+      ],
+      "metal_interior_updates_per_second" : 13646064908.446501,
+      "metal_median_seconds" : 0.015308208,
+      "metal_wall_seconds" : [
+        0.015308208,
+        0.009225291,
+        0.016902084000000001,
+        0.012673959,
+        0.015653459000000002
+      ],
+      "repeats" : 5,
+      "steps" : 200,
+      "width" : 1024
+    }
+  ],
+  "created_at_utc" : "2026-10-03T22:09:18Z",
+  "diffusivity" : 1,
+  "dt" : 0.20000000000000001,
+  "dx" : 1,
+  "dy" : 1,
+  "logical_cpu_count" : 8,
+  "metal_device" : "Apple M1 Pro",
+  "os" : "Version 27.0.1 (Build 26A434)",
+  "physical_memory_bytes" : 17179869184,
+  "precision" : "Float32",
+  "schema_version" : 1,
+  "setup_seconds_excluded" : 0.035857417000000003,
+  "timing_scope" : "solve: validation, allocation, encoding, execution, wait, final array readback; excludes pipeline setup and initial field generation",
+  "unified_memory" : true,
+  "warmups_per_backend_per_grid" : 1
+}

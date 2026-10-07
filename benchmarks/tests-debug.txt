@@ -1,0 +1,58 @@
+Building for debugging...
+[0/13] Write sources
+[1/13] .build/arm64-apple-macosx/debug/HeatFlowMetalPackageTests.derived/runner.swift
+[1/13] Copying heat.metal
+[3/13] Write sources
+[6/13] Write heatflow-entitlement.plist
+[7/13] Write swift-version--1AB21518FC5DEDBE.txt
+[9/18] Compiling HeatFlow resource_bundle_accessor.swift
+[10/18] Compiling HeatFlow Model.swift
+[11/18] Compiling HeatFlow CPU.swift
+[12/18] Emitting module HeatFlow
+[13/18] Compiling HeatFlow Metal.swift
+[14/23] Emitting module HeatFlowCLI
+[15/23] Compiling HeatFlowCLI main.swift
+[15/23] Write Objects.LinkFileList
+[16/23] Linking heatflow
+[17/23] Applying heatflow
+[19/23] Compiling HeatFlowTests Assertions.swift
+[20/23] Compiling HeatFlowTests HeatFlowTests.swift
+[21/23] Emitting module HeatFlowTests
+[22/25] Emitting module HeatFlowMetalPackageTests
+[23/25] Compiling HeatFlowMetalPackageTests runner.swift
+[23/25] Write Objects.LinkFileList
+[24/25] Linking HeatFlowMetalPackageTests
+Build complete! (30.12s)
+warning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.
+◇ Test run started.
+↳ Testing Library Version: 2084
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite HeatFlowTests started.
+◇ Test testRejectsUnstableAndInvalidConfigurations() started.
+✔ Test testRejectsUnstableAndInvalidConfigurations() passed after 0.001 seconds.
+◇ Test testFieldAndStepValidation() started.
+✔ Test testFieldAndStepValidation() passed after 0.001 seconds.
+◇ Test testHandCalculatedAnisotropicStep() started.
+✔ Test testHandCalculatedAnisotropicStep() passed after 0.001 seconds.
+◇ Test testZeroStepsReturnsExactInput() started.
+✔ Test testZeroStepsReturnsExactInput() passed after 0.001 seconds.
+◇ Test testConstantFieldIsStationary() started.
+✔ Test testConstantFieldIsStationary() passed after 0.001 seconds.
+◇ Test testFixedNonzeroBoundaryAndMaximumPrinciple() started.
+✔ Test testFixedNonzeroBoundaryAndMaximumPrinciple() passed after 0.004 seconds.
+◇ Test testDiscreteSineEigenmode() started.
+✔ Test testDiscreteSineEigenmode() passed after 0.014 seconds.
+◇ Test testSecondOrderConvergenceAgainstContinuousSolution() started.
+✔ Test testSecondOrderConvergenceAgainstContinuousSolution() passed after 0.111 seconds.
+◇ Test testCoolingSymmetryAndLongTimeDecay() started.
+✔ Test testCoolingSymmetryAndLongTimeDecay() passed after 0.135 seconds.
+◇ Test testSplittingTimestepsMatchesSingleRun() started.
+✔ Test testSplittingTimestepsMatchesSingleRun() passed after 0.001 seconds.
+◇ Test testMetalParityOddRectangularGridsAndBatchTransitions() started.
+✔ Test testMetalParityOddRectangularGridsAndBatchTransitions() passed after 0.074 seconds.
+◇ Test testMetalMinimumGridAndFixedEdges() started.
+✔ Test testMetalMinimumGridAndFixedEdges() passed after 0.002 seconds.
+◇ Test testMetalDeterminismAndInvalidInputs() started.
+✔ Test testMetalDeterminismAndInvalidInputs() passed after 0.006 seconds.
+✔ Suite HeatFlowTests passed after 0.353 seconds.
+✔ Test run with 13 tests in 1 suite passed after 0.353 seconds.

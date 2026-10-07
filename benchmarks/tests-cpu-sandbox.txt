@@ -1,0 +1,34 @@
+[0/1] Planning build
+Building for production...
+[0/3] Write swift-version--1AB21518FC5DEDBE.txt
+Build complete! (0.19s)
+warning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.
+◇ Test run started.
+↳ Testing Library Version: 2084
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite HeatFlowTests started.
+◇ Test testRejectsUnstableAndInvalidConfigurations() started.
+✔ Test testRejectsUnstableAndInvalidConfigurations() passed after 0.001 seconds.
+◇ Test testFieldAndStepValidation() started.
+✔ Test testFieldAndStepValidation() passed after 0.001 seconds.
+◇ Test testHandCalculatedAnisotropicStep() started.
+✔ Test testHandCalculatedAnisotropicStep() passed after 0.001 seconds.
+◇ Test testZeroStepsReturnsExactInput() started.
+✔ Test testZeroStepsReturnsExactInput() passed after 0.001 seconds.
+◇ Test testConstantFieldIsStationary() started.
+✔ Test testConstantFieldIsStationary() passed after 0.001 seconds.
+◇ Test testFixedNonzeroBoundaryAndMaximumPrinciple() started.
+✔ Test testFixedNonzeroBoundaryAndMaximumPrinciple() passed after 0.001 seconds.
+◇ Test testDiscreteSineEigenmode() started.
+✔ Test testDiscreteSineEigenmode() passed after 0.001 seconds.
+◇ Test testSecondOrderConvergenceAgainstContinuousSolution() started.
+✔ Test testSecondOrderConvergenceAgainstContinuousSolution() passed after 0.001 seconds.
+◇ Test testCoolingSymmetryAndLongTimeDecay() started.
+✔ Test testCoolingSymmetryAndLongTimeDecay() passed after 0.001 seconds.
+◇ Test testSplittingTimestepsMatchesSingleRun() started.
+✔ Test testSplittingTimestepsMatchesSingleRun() passed after 0.001 seconds.
+➜ Test testMetalParityOddRectangularGridsAndBatchTransitions() skipped: "No accessible Metal GPU"
+➜ Test testMetalMinimumGridAndFixedEdges() skipped: "No accessible Metal GPU"
+➜ Test testMetalDeterminismAndInvalidInputs() skipped: "No accessible Metal GPU"
+✔ Suite HeatFlowTests passed after 0.004 seconds.
+✔ Test run with 13 tests in 1 suite passed after 0.004 seconds.
